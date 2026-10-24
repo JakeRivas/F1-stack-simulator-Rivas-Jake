@@ -1,7 +1,7 @@
 # Stack Simulator Web App
 
 
-Name: Jake Rivas
+Name: Jake B. Rivas
 
 Section: BSIT DA 2-1
 
