@@ -1,0 +1,60 @@
+body {
+    background-color: #495579;
+}
+
+/* The FRONT is shown at the top; the REAR is at the bottom. */
+#queue {
+    align-items: center;
+    min-height: 140px;
+}
+
+.enqueue, .dequeue {
+    width: 60px;
+    min-height: 50px;
+    border-radius: 5px;
+    margin: 5px auto;
+    padding: 8px 3px;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    overflow-wrap: anywhere;
+}
+
+.dequeued {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Peek is highlighted in yellow like the original Stack project. */
+.peek {
+    background-color: #F5C518;
+    color: #111;
+}
+
+.queue-label {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 4px;
+    font-size: 0.9rem;
+}
+
+.queue-label span {
+    display: block;
+    font-weight: normal;
+    overflow-wrap: anywhere;
+}
+
+#message {
+    min-height: 50px;
+    overflow-wrap: anywhere;
+}
+
+.bg-7B8FA1 {
+    background-color: #7B8FA1;
+}
+
+.bg-9C254D {
+    background-color: #9C254D;
+}
